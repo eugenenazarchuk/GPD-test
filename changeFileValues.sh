@@ -1,10 +1,6 @@
 #!bin/bash 
 
-mkdir /tmp/SVN-GIT-AU
-cd /tmp/SVN-GIT-AU
-
-git clone https://github.com/eugenenazarchuk/GPD-test.git
-cd GPD-test
+cd /tmp/SVN-GIT-AU/GPD-test
 date +%s > test.txt
 git add test.txt
 git commit -m "change content test.txt"
